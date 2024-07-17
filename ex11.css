@@ -1,14 +1,22 @@
 
-@charset"utf-8";
+@charset "utf-8";
 
-/**リストの点を削除**/
-ul{
-    list-style:none;
-    padding-left: 0px;
-    width: 250px;
-    background-color: #00127;
+ul {
+    list-style: none;
+
+    padding-left: none;
 }
 
-li{
+li {
     width: 250px;
+    magin: 0, 0, 5px, 0; color:#FFFFFF;
 }
+
+li.odd {
+    background-color: red;
+}
+
+li.even {
+    background-color: blue;
+}
+
