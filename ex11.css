@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+ul {
+    list-style: none;
+
+    padding-left: none;
+}
+
+li {
+    width: 250px;
+    magin: 0, 0, 5px, 0; color:#FFFFFF;
+}
+
+li.odd {
+    background-color: red;
+}
+
+li.even {
+    background-color: blue;
+}
